@@ -55,5 +55,6 @@ void loop() {
   radio.write(&counter, sizeof(counter));
   disp.displayInt(counter);
   counter++;
+  
   delay(1000);
 }
